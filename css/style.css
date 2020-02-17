@@ -1,0 +1,331 @@
+/* Font connection */
+@font-face {
+  font-family: 'Jaapokkisubtract';
+  src: url('../fonts/JaapokkisubtractRegular.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/JaapokkisubtractRegular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg');
+  /* Legacy iOS */
+}
+/* Specification */
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #0000a0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+p {
+  line-height: 1.7em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Jaapokkisubtract', serif;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  line-height: 1.25em;
+}
+h2 {
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+h3 {
+  letter-spacing: 0.03em;
+}
+.btn {
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  border: 3px solid #fff;
+  padding: 17px 0;
+  width: 220px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.btn-hover {
+  background: #fff;
+  color: #0001c5;
+}
+.container {
+  margin: 0 8%;
+}
+/* Hero section */
+.header {
+  background: #0000a0 url('../images/first_bg.jpg') no-repeat center bottom / cover;
+  color: #fff;
+  height: 100vh;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+}
+.header .container {
+  height: 100vh;
+  position: relative;
+}
+.header .container .logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  background-color: #fff;
+  color: #0000a0;
+  font-family: 'Jaapokkisubtract', serif;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 8%;
+}
+.header .container .logo:hover {
+  border-radius: 50%;
+}
+.header .container .brah {
+  background-color: #fff;
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 18px;
+  color: #0000a0;
+  width: 42px;
+  height: 184px;
+  padding: 10px 15px;
+  position: absolute;
+  left: 62%;
+  top: 0;
+  line-height: 1.5em;
+}
+.header .container .hamburger {
+  width: 41px;
+  position: absolute;
+  right: 0;
+  top: 8%;
+  cursor: pointer;
+}
+.header .container .hamburger span {
+  background-color: #fff;
+  display: block;
+  height: 2px;
+  margin-bottom: 6px;
+  float: right;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.header .container .hamburger:hover span:nth-child(2) {
+  width: 75%;
+}
+.header .container .hamburger:hover span:nth-child(3) {
+  width: 50%;
+}
+.header .container .offer {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -200px;
+}
+.header .container .offer .offer__bg {
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 300px;
+  color: #1B1CC4;
+  position: absolute;
+}
+.header .container .offer .offer__title {
+  font-size: 55px;
+  width: 545px;
+  position: relative;
+  margin-top: 110px;
+  margin-left: 134px;
+}
+.header .container .offer .offer__title:after {
+  display: block;
+  background: #fff;
+  content: '';
+  height: 5px;
+  width: 29px;
+  position: absolute;
+  top: -10%;
+  right: 32%;
+}
+.header .container .offer .offer__text {
+  font-size: 17px;
+  font-weight: 400;
+  width: 337px;
+  height: 43px;
+  margin-top: 40px;
+  margin-left: 220px;
+}
+.header .container .offer .offer__btn {
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  border: 3px solid #fff;
+  padding: 17px 0;
+  width: 220px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.header .container .offer .offer__btn:hover {
+  background: #fff;
+  color: #0001c5;
+}
+.header .container .next {
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 300px;
+  width: 433px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  margin-top: -135px;
+  line-height: 0;
+  text-shadow: 15px 15px 0 #01039D;
+}
+.header .container .next span {
+  margin-right: -70px;
+  line-height: 0.7em;
+}
+.header .container .next span:nth-child(2) {
+  color: #0048FF;
+}
+.header .container .scroll {
+  display: block;
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 22px;
+  border-right: 3px solid #fff;
+  height: 135px;
+  width: 100px;
+  padding-right: 40px;
+  padding-top: 75px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+  transition: all 0.3s ease;
+}
+.header .container .scroll:hover {
+  background: #fff;
+  color: #0000a0;
+}
+/* Services */
+.services {
+  padding-top: 160px;
+  font-family: 'Jaapokkisubtract', serif;
+}
+.services .section-title__intro {
+  font-size: 23px;
+  color: #a8a8e4;
+  margin: 0;
+}
+.services .section-title__title {
+  margin-left: 50px;
+  font-size: 85px;
+  position: relative;
+}
+.services .section-title__title:after {
+  content: '';
+  display: inline-block;
+  background: #0000a0;
+  width: 29px;
+  height: 5px;
+  margin-bottom: -15px;
+}
+.services .service {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.services .service__item {
+  cursor: pointer;
+  padding-left: 53px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+  width: 20%;
+  border: 4px solid #0000a0;
+  position: relative;
+}
+.services .service__item:hover {
+  background: #0000a0;
+  color: #fff;
+  box-shadow: 0 0 65px rgba(0, 1, 197, 0.45);
+}
+.services .service__item .icon {
+  font-size: 48px;
+  margin-bottom: 45px;
+  display: block;
+}
+.services .service__item .service__title {
+  font-size: 26px;
+  overflow: hidden;
+}
+.services .service__item .service__more {
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 31px;
+  width: 40px;
+  height: 38px;
+  color: #fff;
+  background: #0000a0;
+  position: absolute;
+  text-align: center;
+  display: block;
+  right: 0;
+  bottom: 0;
+}
+.services .service__item .service__index {
+  font-size: 23px;
+  position: absolute;
+  color: #a8a8e4;
+  top: 30px;
+  left: -55px;
+}
+/* Footer */
+.footer {
+  background-color: #EDEDF8;
+  padding: 160px 0;
+}
+.footer .container .credits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+}
+.footer .container .credits__logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  background-color: #0000a0;
+  color: #fff;
+  font-family: 'Jaapokkisubtract', serif;
+}
+.footer .container .credits__btn {
+  font-family: 'Jaapokkisubtract', serif;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  border: 3px solid #fff;
+  padding: 17px 0;
+  width: 220px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  border-color: #0000a0;
+  color: #0000a0;
+}
+.footer .container .credits__btn:hover {
+  background-color: #0000a0;
+  color: #fff;
+}
+.footer .container .credits__up a {
+  text-decoration: none;
+}

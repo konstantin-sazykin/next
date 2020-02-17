@@ -1,0 +1,119 @@
+
+/* 1601 ~ 1920 px */
+@media screen and (max-width: 1920px) {
+
+
+}
+
+/* 1281 ~ 1600 px  */
+@media screen and (max-width: 1600px) {
+}
+
+/* 961 ~ 1280 */
+@media screen and (max-width: 1280px) {
+    .header .container .offer .offer__bg {
+        font-size: 200px;
+    }
+    .header .container .offer .offer__title {
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .header .container .offer .offer__btn {
+        margin-left: 240px;
+    }
+    .header .container .next {
+        font-size: 200px;
+        width: 220px;
+        left: 77%;
+    }
+    .header .container .brah {
+        display: none;
+
+    }
+    .services .service {
+        flex-direction: column;
+    }
+    .services .service__item {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+
+/* 769 ~ 960 px */
+@media screen and (max-width: 960px) {
+    .header .container .next {
+    display: none;
+    }
+    .footer .container .credits {
+        flex-direction: column;
+    }
+    .footer .container .credits > * {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* 481 ~ 768 px */
+@media screen and (max-width: 768px) {
+    .header .container .offer .offer__bg {
+        font-size: 100px;
+        position: relative;
+    }
+
+    .header {
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .header .container {
+        height: auto;
+        padding-bottom: 150px;
+    }
+
+    .header .container nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header .container .logo {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    .header .container .hamburger {
+        position: relative;
+        top: auto;
+        right: auto;
+        float: none;
+        margin-top: 14px;
+    }
+
+    .header .container .offer {
+        position: relative;
+        left: auto;
+        top: auto;
+        padding-top: 300px;
+    }
+
+    .header .container .offer .offer__title {
+        font-size: 35px;
+        width: auto;
+        margin-left: auto;
+    }
+    .header .container .offer .offer__text {
+        width: auto;
+        margin-left: auto;
+    }
+    .header .container .offer .offer__btn {
+        margin-left: 0;
+    }
+
+
+}
+/* 0 ~ 480px */
+@media screen and (max-width: 480px) { 
+    .services .section-title__title {
+        font-size: 60px;
+    }
+}
